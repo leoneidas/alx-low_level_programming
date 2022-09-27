@@ -17,14 +17,14 @@ while (haystack[i])
 while (needle[j] && (haystack[i] == needle[0]))
 {
 if (haystack[i + j] == needle[j])
-	j++;
+j++;
 else
-	break;
+break;
 }
 if (needle[j])
 {
-	j++;
-	j = 0;
+j++;
+j = 0;
 }
 else 
 return (haystack + i);
